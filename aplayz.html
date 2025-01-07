@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./styles/aplayz.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="menu">
+          <li class="menu-item">
+            <a tabindex="0" class="cursor">
+              <img class="logo-img" src="./img/logo.png" alt="로고" />
+            </a>
+          </li>
+          <li class="menu-item menu-list">
+            <a
+              tabindex="0"
+              class="cursor"
+              onkeypress="onKeyPress(event)"
+              onclick="onClick()"
+            >
+              <button class="btntab">company</button>
+            </a>
+            <a
+              tabindex="0"
+              class="cursor"
+              onkeypress="onKeyPress(event)"
+              onclick="onClick()"
+            >
+              <button class="btntab auto">Technology</button>
+            </a>
+
+            <a
+              tabindex="0"
+              class="cursor"
+              onkeypress="onKeyPress(event)"
+              onclick="onClick()"
+            >
+              <button class="btntab auto">Products</button>
+            </a>
+
+            <a
+              tabindex="0"
+              class="cursor"
+              onkeypress="onKeyPress(event)"
+              onclick="onClick()"
+            >
+              <button class="btntab auto">News</button>
+            </a>
+
+            <a
+              tabindex="0"
+              class="cursor"
+              onkeypress="onKeyPress(event)"
+              onclick="onClick()"
+            >
+              <button class="btntab auto">Careers</button>
+            </a>
+
+            <a
+              tabindex="0"
+              class="cursor"
+              onkeypress="onKeyPress(event)"
+              onclick="onClick()"
+            >
+              <button class="btntab auto">Contact</button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <footer></footer>
+    </main>
+    <script>
+      const onClick = () => {
+        alert(1);
+      };
+      const onKeyPress = ($event) => {
+        if ($event.keyCode === 13) {
+          onClick();
+        }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>

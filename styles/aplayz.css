@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: #1a1a1a;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.nav {
+  width: 72%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+.menu-item.menu-list {
+  margin-left: auto;
+}
+.logo-img {
+  width: 102px;
+  height: 34px;
+}
+
+.btntab {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+}
+
+.btntab.auto {
+  margin-left: auto;
+}
